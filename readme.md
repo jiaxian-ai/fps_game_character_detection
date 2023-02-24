@@ -1,14 +1,15 @@
-#### 介绍：
+## fps_game_character_detection
 
+### 介绍：
 本项目为CF网游，人物角色识别定位模型，采用yolov5框架实现，仅供学习研究使用。
 
-##### 模型效果展示
+#### 模型效果展示
 
 ![](https://image-static.segmentfault.com/253/642/2536425189-63f74fbd7a530_fix732)
 ![](https://image-static.segmentfault.com/213/616/2136164778-63f74fbd5ee7d_fix732)
 ![](https://image-static.segmentfault.com/251/983/2519833025-63f74fbd7afef_fix732)
 
-##### 开发思路与流程
+#### 开发思路与流程
 
 **思路**
 
@@ -83,6 +84,3 @@ python predict.py
 ```
 
 会连续截屏，并在定位到目标后，等待“鼠标右键”点击，如果捕获到右键，则会自动移动鼠标到目标位置
-
-
-# fps_game_character_detection
