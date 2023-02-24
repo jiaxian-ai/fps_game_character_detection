@@ -56,15 +56,15 @@ FPS游戏中，主要以击败敌方角色为目标，影响比赛成绩最主�
 
 训练结果的模型和分析将保存在 `yolov5-7.0/runs/train/exp/`目录，`bast.pt`就是训练好的模型
 
-#### 体验模型
+### 体验模型
 
 项目地址：https://github.com/jiaxian-ai/fps_game_character_detection
 
 `git clone https://github.com/jiaxian-ai/fps_game_character_detection.git`
 
-#### 环境配置
+### 环境配置
 
-##### 系统要求：**windows10+GPU**
+#### 系统要求：**windows10+GPU**
 
 **python>=3.8**
 
@@ -74,14 +74,14 @@ cd yolov5-7.0 #进入yolov5-7.0目录
 pip install -r requirements.txt
 ```
 
-##### 模型测试
+#### 模型测试
 测试模型效果，判断是否正常运行
 ```
 python detect.py
 ```
 测试结果的图片标注将保存在 `yolov5-7.0/runs/detect/` 目录
 
-##### 在真实游戏中使用
+#### 在真实游戏中使用
 
 运行predict.py文件
 ```
